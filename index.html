@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Rapid Typing</title>
@@ -8,31 +8,32 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="container">
     <div class="topbar">
       <div class="speed-stats">
         <span>
-          <div class="stats-hint">Speed stats</div>
+          <div class="stats-hint">လက်ကွက်မြန်နှုန်း</div>
           <i class="ion-speedometer"></i>
         </span>
-        <span class="speed-current">376</span>
+        <span class="speed-current"></span>
         <span>/</span>
-        <span class="speed-average">321</span>
+        <span class="speed-average"></span>
       </div>
 
       <div class="mode-select">
         <i class="ion-ios-game-controller-b"></i>
-        <span class="mode-title">Select mode</span>
+        <span class="mode-title">ဂိမ်း</span>
         <ul class="mode-dropdown">
-          <li id="beginner">Beginner</li>
-          <li id="novice">Novice</li>
+          <li id="beginner">အလွယ်</li>
+          <li id="novice">ပုံမှန်</li>
         </ul>
       </div>
 
       <div class="error-stats">
         <span>
-          <div class="stats-hint">Error stats</div>
+          <div class="stats-hint">အမှားရာခိုင်နှုန်း</div>
           <i class="ion-bug"></i>
         </span>
         <span class="error-current"></span>
@@ -42,23 +43,23 @@
     </div>
 
     <div class="wordline-container">
-      <input class="inputline" type="text" spellcheck="false" autofocus/>
+      <input class="inputline" type="text" spellcheck="false" autofocus />
       <div class="wordline">
-        <span class="placeholder">Words are coming... 
+        <span class="placeholder">ခေတ္တစောင့်ဆိုင်းပါ...
           <img src="img/wait.gif">
         </span>
       </div>
     </div>
-    
+
     <div class="keyboard-toolbar">
       <i id="keyboard-toggle" class="tool ion-eye">
-        <span class="hint">Toggle keyboard</span>
+        <span class="hint">ကီးဘုတ် ပိတ်/ဖွင့်</span>
       </i>
       <i id="hands-toggle" class="tool ion-android-hand">
-        <span class="hint">Toggle hands</span>
+        <span class="hint">လက် ပိတ်/ဖွင့်</span>
       </i>
       <i id="color-toggle" class="tool ion-paintbucket">
-        <span class="hint">Toggle colors</span>
+        <span class="hint">အရောင် ပိတ်/ဖွင့်</span>
       </i>
     </div>
 
@@ -141,39 +142,40 @@
         <div class="key group-8" id=";">;
           <div class="subkey">:</div>
         </div>
-        <div class="key group-8" id=""">"
-          <div class="subkey">,</div>
-        </div>
-        <div class="key non-group" id="enter">Enter</div>
+        <div class="key group-8" id=""">" <div class="subkey">,</div>
       </div>
-      <div class="keyline">
-        <div class="key group-1" id="shift-l">Shift</div>
-        <div class="key group-1" id="z">z</div>
-        <div class="key group-2" id="x">x</div>
-        <div class="key group-3" id="c">c</div>
-        <div class="key group-4" id="v">v</div>
-        <div class="key group-4" id="b">b</div>
-        <div class="key group-5" id="n">n</div>
-        <div class="key group-5" id="m">m</div>
-        <div class="key group-6" id="<"><
-          <div class="subkey">,</div>
-        </div>
-        <div class="key group-7" id=">">>
-          <div class="subkey">.</div>
-        </div>
-        <div class="key group-8" id="/">/
-          <div class="subkey">?</div>
-        </div>
-        <div class="key group-8" id="shift-r">shift</div>
-      </div>
-      <div class="keyline">
-        <div class="key" id="space"></div>
+      <div class="key non-group" id="enter">Enter</div>
+    </div>
+    <div class="keyline">
+      <div class="key group-1" id="shift-l">Shift</div>
+      <div class="key group-1" id="z">z</div>
+      <div class="key group-2" id="x">x</div>
+      <div class="key group-3" id="c">c</div>
+      <div class="key group-4" id="v">v</div>
+      <div class="key group-4" id="b">b</div>
+      <div class="key group-5" id="n">n</div>
+      <div class="key group-5" id="m">m</div>
+      <div class="key group-6" id="<">
+        < <div class="subkey">,
       </div>
     </div>
+    <div class="key group-7" id=">">>
+      <div class="subkey">.</div>
+    </div>
+    <div class="key group-8" id="/">/
+      <div class="subkey">?</div>
+    </div>
+    <div class="key group-8" id="shift-r">shift</div>
   </div>
-  
+  <div class="keyline">
+    <div class="key" id="space"></div>
+  </div>
+  </div>
+  </div>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/words.js"></script>
   <script src="js/build.js"></script>
 </body>
+
 </html>
